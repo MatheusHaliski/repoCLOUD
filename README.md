@@ -1,36 +1,27 @@
 # Repositório de Referência Backend
 
 Este repositório é o **projeto de referência** para a disciplina **Backend: Cloud Computing**.  
-Cada equipe deve realizar um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
+Cada equipe deverá realizar `OBRIGATORIAMENTE` um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
 
 ### `Exemplo: E01-AstraBar`
 
-## Atividade avaliativa de integração de microsserviços poliglotas com Service Discovery e Gateway
+## Integração de microsserviços poliglotas com Service Discovery e Gateway
 
-Esta atividade como objetivo a construção colaborativa de uma aplicação distribuída, utilizando **microsserviços escritos em diferentes linguagens de programação**, integrados por meio de um **Service Discovery (Consul)** e um **API Gateway (Spring Cloud Gateway ou alternativa)**, e visa avaliar a capacidade da equipe/aluno em projetar e implementar microsserviços funcionais, integrado a um sistema distribuído com base nos conceitos de arquitetura cloud native.
+Esta atividade tem como objetivo a construção colaborativa de uma aplicação distribuída, utilizando **microsserviços escritos em diferentes linguagens de programação**, integrados por meio de um **Service Discovery (Consul)** e um **API Gateway (Spring Cloud Gateway ou alternativa)**, e visa avaliar a capacidade da equipe/aluno em projetar e implementar microsserviços funcionais, integrado a um sistema distribuído com base nos conceitos de arquitetura cloud native.
 
-## A solução deverá conter:
+## Orientações gerais
 
-- **Pelo menos dois microsserviços**, cada um escrito em uma linguagem de programação distinta (ex: Java + Node.js, Python + C#, etc).
+- A equipe deverá desenvolver **pelo menos dois microsserviços**, cada um escrito em uma linguagem de programação distinta (ex: Java + Node.js, Python + C#, etc).
 - Implementar uma **API REST funcional** em cada serviço, com ao menos um endpoint GET e um POST.
-- Documentar cada API utilizando Swagger/OpenAPI.
+- Documentar as APIs utilizando Swagger/OpenAPI.
 - Integrar os microsserviços ao **Service Discovery (Consul)** e **rotear chamadas HTTP via Gateway**.
 - Registrar e desregistrar os serviços corretamente (manualmente ou via autoregistro).
 - Utilizar o GitLab para versionamento colaborativo.
-
-## Cada equipe/aluno deverá:
-
-- Criar um fork de um repositório base (fornecido pelo professor).
-- Cada membro da equipe deve contribuir com commits autorais e com mensagens descritivas no repositório de código.
+- Cada integrante da equipe deverá contribuir com commits autorais e mensagens descritivas no repositório.
 - A integração deverá ser validada via requisições de teste com Postman, Insomnia ou equivalente (não será necessário frontend).
----
-
-### Observações Importantes
-
 - O uso de mensageria não será exigido nesta avaliação.
-- O foco principal está em: separação dos microsserviços, integração via gateway e discovery, diversidade de tecnologias.
+- O foco principal está na separação dos microsserviços, integração via gateway e discovery, diversidade de tecnologias.
 - O repositório deve conter um README.md com os dados da equipe, o contexo comercial, a stack tecnológica e instruções de execução.
-
 
 ---
 ## Exemplo básico de README.md
