@@ -1,13 +1,13 @@
 # Repositório de Referência Backend
 
-Este repositório é o **projeto de referência** para a disciplina **Backend: Cloud Computing**.  
-Cada equipe deverá realizar `OBRIGATORIAMENTE` um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
+Este é o **repositório de referência** para a atividade prática de Somativa N1 de **Backend: Cloud Computing**.  
+Para a realização da atividade, cada equipe deverá realizar, `OBRIGATORIAMENTE`, um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
 
 ### `Exemplo: E01-AstraBar`
 
 ## Integração de microsserviços poliglotas com Service Discovery e Gateway
 
-Esta atividade tem como objetivo a construção colaborativa de uma aplicação distribuída, utilizando **microsserviços escritos em diferentes linguagens de programação**, integrados por meio de um **Service Discovery (Consul)** e um **API Gateway (Spring Cloud Gateway ou alternativa)**, e visa avaliar a capacidade da equipe/aluno em projetar e implementar microsserviços funcionais, integrado a um sistema distribuído com base nos conceitos de arquitetura cloud native.
+Esta atividade tem como objetivo a implementação PARCIAL do sistema Cloud Native que está sendo desenvolvido/refatorado ao longo da disciplina, através da criação de **dois microsserviços escritos em diferentes linguagens de programação**, integrados por meio de um **Service Discovery (Consul)** e um **API Gateway (Spring Cloud Gateway ou alternativa)**, e visa avaliar a capacidade da equipe/aluno em projetar e implementar microsserviços funcionais, integrados a um sistema distribuído com base nos conceitos de Arquitetura Cloud Native.
 
 ## Orientações gerais
 
