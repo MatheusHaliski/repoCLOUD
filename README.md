@@ -1,7 +1,7 @@
 # Repositório de Referência Backend
 
 Este é o **repositório de referência** para a atividade prática da Somativa N1 de **Backend: Cloud Computing**.  
-Para a execução da atividade, cada equipe deverá realizar, `OBRIGATORIAMENTE`, um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
+Para a execução da atividade cada equipe deverá realizar, `OBRIGATORIAMENTE`, um **fork** deste repositório com o nome da equipe/projeto fornecido pelo professor.
 
 ### `Exemplo: E01-AstraBar`
 
