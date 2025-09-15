@@ -1,0 +1,49 @@
+version: "3.8"
+services:
+  consul:
+    image: consul:1.15
+    container_name: consul
+    ports:
+      - "8500:8500"
+      - "8600:8600/udp"
+    networks:
+      - app-network
+
+  gateway:
+    build: e-03-chat-bot/gateway
+    ports:
+      - "8081:8080"
+    networks:
+      - app-network
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+
+  service-java:
+    build: e-03-chat-bot/service-java
+    ports:
+      - "8082:8080"
+    networks:
+      - app-network
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+
+  service-python:
+    build:
+      context: e-03-chat-bot/service-python
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+    networks:
+      - app-network
+    environment:
+      SPRING_CLOUD_CONSUL_HOST: consul
+      SPRING_CLOUD_CONSUL_PORT: 8500
+      SERVICE_NAME: sp
+      SERVICE_PORT: 8083
+    depends_on:
+      - consul
+
+
+networks:
+  app-network:
+    driver: bridge
