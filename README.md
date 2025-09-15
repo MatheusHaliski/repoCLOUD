@@ -3,7 +3,7 @@
 
 ## E03- ChatBot
 
-- Nome do Projeto: 
+- Nome do Projeto: ChatBot com Docker (API Gateway + Consul)
 - Integrantes:
   - Nome 1 – Matheus Braschi Haliski
   - Nome 2 – Stephanny Almeida
