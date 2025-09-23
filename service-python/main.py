@@ -4,7 +4,11 @@ import os
 import socket
 from consul import Consul
 
-app = FastAPI()
+app = FastAPI(
+    title="Python Microservice API",
+    description="API do microserviço Python integrada ao Consul",
+    version="1.0.0"
+)
 
 @app.on_event("startup")
 def register_service() -> None:
